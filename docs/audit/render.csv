@@ -1,0 +1,9 @@
+﻿page,exit_code,php_diagnostics,head_count,body_count,head_closed,html_closed
+index.php,0,0,1,1,True,True
+about.php,0,0,1,1,True,True
+contact.php,0,0,1,1,True,True
+gallery.php,0,0,1,1,True,True
+tournament.php,0,0,1,1,True,True
+thank-you.php,0,0,1,1,True,True
+sorry.php,0,0,1,1,True,True
+admin/index.php,0,0,1,1,True,True

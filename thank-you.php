@@ -1,0 +1,1 @@
+<?php $pageTitle='Thank you · Smoky Mountain Cup';require __DIR__.'/php/secction/header.php';?><main id="main-content" class="cup-section"><h1>Thank you for reaching out.</h1><p>Your message has been accepted for delivery to the organizers.</p><a class="cup-button" href="index.php">Return home</a></main><?php require __DIR__.'/php/secction/footer.php';?>

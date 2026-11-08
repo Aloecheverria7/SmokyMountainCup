@@ -1,0 +1,8 @@
+/config/local.php
+/storage/*
+!/storage/.htaccess
+/upload/managed/*
+!/upload/managed/.htaccess
+/tests/artifacts/
+__pycache__/
+*.pyc

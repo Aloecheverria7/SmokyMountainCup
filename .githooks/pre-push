@@ -1,0 +1,8 @@
+#!/bin/sh
+# Install with: git config core.hooksPath .githooks
+set -eu
+if command -v python >/dev/null 2>&1; then
+    python tools/check.py --mysql
+else
+    python3 tools/check.py --mysql
+fi
