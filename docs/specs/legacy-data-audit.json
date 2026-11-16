@@ -1,0 +1,134 @@
+{
+  "source": "u460493799_smokyOriginal.sql",
+  "counts": {
+    "categories": 4,
+    "games": 24,
+    "groups": 10,
+    "group_teams": 40,
+    "teams": 40,
+    "team_stats": 40,
+    "goals": 0
+  },
+  "total_rows": 158,
+  "game_statuses": {
+    "not started": 24
+  },
+  "duplicate_team_names": {
+    "Galacticos": [
+      6,
+      29,
+      36
+    ]
+  },
+  "stat_anomalies": [
+    {
+      "table": "team_stats",
+      "source_id": "1",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "2",
+      "code": "PLAYED_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "3",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "5",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "6",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "7",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "8",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "9",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "10",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "11",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "12",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "13",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "14",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "15",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "16",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "17",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "18",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "19",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "21",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "29",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    },
+    {
+      "table": "team_stats",
+      "source_id": "36",
+      "code": "GOAL_DIFFERENCE_MISMATCH"
+    }
+  ],
+  "notes": [
+    "Análisis estático del dump; no se consultó producción.",
+    "Comparación de puntos pendiente de confirmar reglamento; no se corrigieron datos."
+  ]
+}

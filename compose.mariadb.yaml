@@ -1,0 +1,20 @@
+name: smoky-mountain-system-dev
+services:
+  db:
+    image: mariadb:11.8
+    environment:
+      MARIADB_DATABASE: ${APP_DB_NAME:-smoky_system}
+      MARIADB_USER: ${APP_DB_USER:-smoky_app}
+      MARIADB_PASSWORD: ${APP_DB_PASSWORD:?Configure APP_DB_PASSWORD in .env}
+      MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD:?Configure MARIADB_ROOT_PASSWORD in .env}
+    ports:
+      - "127.0.0.1:${APP_DB_PORT:-3307}:3306"
+    volumes:
+      - system-db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+volumes:
+  system-db:

@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 400;
+  src: url("/published-vendor/7b56c437cef01b08.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 700;
+  src: url("/published-vendor/8a8a17b3b2f2ac83.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/published-vendor/c8f8c7f5ed539bb4.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  src: url("/published-vendor/33605a4217326af4.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 300;
+  font-stretch: normal;
+  src: url("/published-vendor/821e0a3771573f12.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url("/published-vendor/e2f72ed92c0396a3.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: normal;
+  src: url("/published-vendor/653818ab87150c8c.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 900;
+  font-stretch: normal;
+  src: url("/published-vendor/ea0246530872f36d.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  src: url("/published-vendor/1dfef6a8661dc8cc.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url("/published-vendor/e9292e12f73f31cb.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  src: url("/published-vendor/c0b39560ff5f9823.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+  src: url("/published-vendor/6b4d8a87712b1adc.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-stretch: normal;
+  src: url("/published-vendor/bf2cc5bca80a00e2.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-stretch: normal;
+  src: url("/published-vendor/a24b3980a44f0208.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url("/published-vendor/e4b43e86c005a136.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-stretch: normal;
+  src: url("/published-vendor/f285a18ad47c6511.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: normal;
+  src: url("/published-vendor/b5ecdf05ca9b481d.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-stretch: normal;
+  src: url("/published-vendor/643910beef0de0c2.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-stretch: normal;
+  src: url("/published-vendor/efe1ff8d29a2a82e.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  src: url("/published-vendor/5639371f108fd32a.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url("/published-vendor/d8dc5a5f3c90f50e.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  src: url("/published-vendor/c14c6f78e26d1c8e.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  src: url("/published-vendor/17dbcf71ea4dcfbb.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+  src: url("/published-vendor/c4c5cbe6fc321619.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 300;
+  src: url("/published-vendor/0f2343c28bb6a3af.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 400;
+  src: url("/published-vendor/01bd667bf197dd7f.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 700;
+  src: url("/published-vendor/a333056e9fabf9a0.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url("/published-vendor/7c0ffb92c8e0cab4.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/published-vendor/ba991b468d482fee.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url("/published-vendor/029ff98265b6710f.ttf") format('truetype');
+}

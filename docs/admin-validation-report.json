@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-09",
+  "scope": "staff authentication and administrative catalogs",
+  "checks": {
+    "build": "passed",
+    "typecheck": "passed",
+    "csrf_unit": 2,
+    "mariadb_api": 36,
+    "browser": 6,
+    "landing_visual_comparisons": 12,
+    "landing_different_pixels": 0
+  },
+  "database": "disposable MariaDB 11.8 container; no production access",
+  "screenshots": "artifacts/admin-desktop.png and artifacts/admin-mobile.png (not committed)",
+  "limits": [
+    "No legacy data imported or reconciled.",
+    "No live SMTP delivery.",
+    "Scoring, fixtures, rosters and venues are pending."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@smoky/api",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "node --env-file-if-exists=../../.env --import tsx --watch src/main.ts",
+    "build": "node -e \"require('node:fs').rmSync('dist', {recursive:true,force:true})\" && tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "start": "node --env-file-if-exists=../../.env dist/main.js",
+    "db:migrate": "node --env-file-if-exists=../../.env dist/database/cli.js migrate",
+    "admin:create": "node --env-file-if-exists=../../.env dist/database/cli.js admin",
+    "legacy:inspect": "node dist/imports/cli.js inspect",
+    "legacy:plan": "node dist/imports/cli.js plan",
+    "legacy:batch": "node dist/imports/batch-cli.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.0",
+    "@nestjs/core": "^11.1.0",
+    "@nestjs/platform-express": "^11.1.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.2.0",
+    "hash-wasm": "4.12.0",
+    "helmet": "^8.1.0",
+    "luxon": "^3.7.2",
+    "mysql2": "^3.15.0",
+    "nodemailer": "^10.4.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "typeorm": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.9",
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "@types/nodemailer": "^7.0.0"
+  }
+}

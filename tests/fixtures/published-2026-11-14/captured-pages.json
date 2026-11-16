@@ -1,0 +1,116 @@
+[
+  {
+    "route": "/about.php",
+    "sha256": "f45be1b2f511022c88b0430d404e6c10fca15e342c32756d48daaa78bb3fc50b",
+    "bytes": 70606,
+    "scripts": 25
+  },
+  {
+    "route": "/blog.php",
+    "sha256": "e671c21a2c17dc92bedc316a6800eb66cf931a52023fe66aebabb649914f7381",
+    "bytes": 57320,
+    "scripts": 25
+  },
+  {
+    "route": "/contact.php",
+    "sha256": "07bf46256e7acccedf4493f9eaa540e143db20f0e6faf21b7fe378665182e44c",
+    "bytes": 62437,
+    "scripts": 25
+  },
+  {
+    "route": "/gallery.php",
+    "sha256": "f1a1f078a90179b4749007392f30ecb7334f2e9909e30852a864753cb373736b",
+    "bytes": 213319,
+    "scripts": 25
+  },
+  {
+    "route": "/games-blocks.php",
+    "sha256": "4c5a7b3f622fbb59a469546254a4b397b433f5bc407fba2876199040e0962c91",
+    "bytes": 42250,
+    "scripts": 0
+  },
+  {
+    "route": "/games-boxScores.php",
+    "sha256": "ab2a98a0911339fda4493374e743931e784a5d95038bfecc55fb98bf06559e05",
+    "bytes": 48585,
+    "scripts": 25
+  },
+  {
+    "route": "/games-calendar.php",
+    "sha256": "62cf6667d7b76d9f59682a684ada4104bebae9c7bacdfd906d2185810069df4d",
+    "bytes": 42048,
+    "scripts": 0
+  },
+  {
+    "route": "/games-details.php",
+    "sha256": "25add7988a07d88f50d12719978e74a5b7481dfdbc498cedc0a77e80a98b1359",
+    "bytes": 44787,
+    "scripts": 25
+  },
+  {
+    "route": "/games-list.php",
+    "sha256": "fba9034116de48afff53bd2d918fa3039a144e60b1fe05a48e29b8f9df16ee39",
+    "bytes": 56651,
+    "scripts": 25
+  },
+  {
+    "route": "/games-results.php",
+    "sha256": "553c4e2a671ac3f3091436703a3557ecb1191e5603df5c94111524241f603595",
+    "bytes": 45847,
+    "scripts": 25
+  },
+  {
+    "route": "/",
+    "sha256": "8d3e049ef158e43060e6dd91264f6a76404bd4e41fefcf5d73e93cc898a18387",
+    "bytes": 117403,
+    "scripts": 25
+  },
+  {
+    "route": "/leaguetable.php",
+    "sha256": "55557b8d9da757d3b27dd767807f3ac534e541f87a2dfd6d8a829e1c231c542c",
+    "bytes": 46755,
+    "scripts": 25
+  },
+  {
+    "route": "/player-details.php",
+    "sha256": "e31f27887ee715c14dbe22b5231856af5001bcd7ca49c365a3799ad6357733f7",
+    "bytes": 44828,
+    "scripts": 25
+  },
+  {
+    "route": "/player-gallery.php",
+    "sha256": "daa8bf339f1075ccb56c3d4364f0ec8385ed8d50724f52650b55a9f88c568d71",
+    "bytes": 47969,
+    "scripts": 25
+  },
+  {
+    "route": "/player-list.php",
+    "sha256": "53c96b3444534bf41f6f33baa0883347178195189f6cdd2d2ecb4f537f0087c9",
+    "bytes": 47989,
+    "scripts": 25
+  },
+  {
+    "route": "/player-statics.php",
+    "sha256": "208f1daaa3b95bfd13c14ff18b8bbeb71baad540460327e2dc3573b2bf6075e8",
+    "bytes": 45883,
+    "scripts": 25
+  },
+  {
+    "route": "/schedule.php",
+    "sha256": "46f3a9b97fa4c5626e8f04d2d896b09fa56116787d5d951f354dd682d78a21ab",
+    "bytes": 47304,
+    "scripts": 25
+  },
+  {
+    "route": "/sorry.php",
+    "sha256": "9625773403523ce310584bede00970e8537a895517524e0544f166f621ea231c",
+    "bytes": 41581,
+    "scripts": 26
+  },
+  {
+    "route": "/thank-you.php",
+    "sha256": "67133dfba9320ad46a15fc1e2463730e8593900a90fab9e82a06ddbcfac3702f",
+    "bytes": 41676,
+    "scripts": 26
+  }
+]

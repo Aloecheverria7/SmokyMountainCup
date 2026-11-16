@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-15",
+  "defaultDriver": "mysql",
+  "engines": [
+    {
+      "engine": "mysql",
+      "image": "mysql:8.4",
+      "imageBinaryVersion": "8.4.13",
+      "apiChecks": 91,
+      "browserPassed": 15,
+      "browserSkipped": 1,
+      "importChecks": 45,
+      "importBrowserPassed": 1
+    },
+    {
+      "engine": "mysql",
+      "image": "mysql:8.0",
+      "imageBinaryVersion": "8.0.46",
+      "apiChecks": 91,
+      "browserPassed": 15,
+      "browserSkipped": 1,
+      "importChecks": 43
+    },
+    {
+      "engine": "mariadb",
+      "image": "mariadb:11.8",
+      "apiChecks": 91,
+      "browserPassed": 15,
+      "browserSkipped": 1,
+      "importChecks": 43
+    }
+  ],
+  "otherChecks": {
+    "unit": 28,
+    "apiSmoke": 8,
+    "hosting": 35,
+    "typecheck": true,
+    "build": true
+  },
+  "coverage": [
+    "three repeatable schema migrations",
+    "authentication, roles, concurrent operations and idempotency",
+    "confirmed results and public landing projection",
+    "legacy reconciliation preserves original statistics values",
+    "transaction rollback on an injected SQL error without SUPER privileges",
+    "private backup and restore into an empty disposable database"
+  ],
+  "limits": [
+    "All database tests use disposable local Docker databases, not operational data.",
+    "Hostinger account and its actual server version were not accessed.",
+    "No production deployment, migration or DNS change was executed.",
+    "The existing visual parity suite was not rerun: no frontend design or asset changes.",
+    "MySQL 5.7 is not certified."
+  ],
+  "mysqlJson": "Snapshot and idempotency assertions compare parsed objects semantically because native MySQL JSON normalizes object key ordering; no source values are rewritten."
+}

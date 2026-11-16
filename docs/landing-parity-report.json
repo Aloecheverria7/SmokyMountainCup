@@ -1,0 +1,86 @@
+[
+  {
+    "width": 360,
+    "scenario": "empty",
+    "pixels": 0,
+    "total": 1215000,
+    "ratio": 0
+  },
+  {
+    "width": 360,
+    "scenario": "live",
+    "pixels": 0,
+    "total": 1447920,
+    "ratio": 0
+  },
+  {
+    "width": 360,
+    "scenario": "posters",
+    "pixels": 0,
+    "total": 1679400,
+    "ratio": 0
+  },
+  {
+    "width": 390,
+    "scenario": "empty",
+    "pixels": 0,
+    "total": 1278810,
+    "ratio": 0
+  },
+  {
+    "width": 390,
+    "scenario": "live",
+    "pixels": 0,
+    "total": 1545570,
+    "ratio": 0
+  },
+  {
+    "width": 390,
+    "scenario": "posters",
+    "pixels": 0,
+    "total": 1796730,
+    "ratio": 0
+  },
+  {
+    "width": 768,
+    "scenario": "empty",
+    "pixels": 0,
+    "total": 2380800,
+    "ratio": 0
+  },
+  {
+    "width": 768,
+    "scenario": "live",
+    "pixels": 0,
+    "total": 2744832,
+    "ratio": 0
+  },
+  {
+    "width": 768,
+    "scenario": "posters",
+    "pixels": 0,
+    "total": 3239424,
+    "ratio": 0
+  },
+  {
+    "width": 1440,
+    "scenario": "empty",
+    "pixels": 0,
+    "total": 3476160,
+    "ratio": 0
+  },
+  {
+    "width": 1440,
+    "scenario": "live",
+    "pixels": 0,
+    "total": 4160160,
+    "ratio": 0
+  },
+  {
+    "width": 1440,
+    "scenario": "posters",
+    "pixels": 0,
+    "total": 5132160,
+    "ratio": 0
+  }
+]

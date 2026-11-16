@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "editionPolicy": "continue-current",
+  "groups": [
+    {
+      "sourceGroupId": 1,
+      "sourceCategoryId": 1,
+      "sourceCategoryName": "Categoria A",
+      "sourceGroupName": "Grupo A",
+      "competition": "adulto",
+      "targetGroup": "A"
+    },
+    {
+      "sourceGroupId": 2,
+      "sourceCategoryId": 1,
+      "sourceCategoryName": "Categoria A",
+      "sourceGroupName": "Grupo B",
+      "competition": "adulto",
+      "targetGroup": "A"
+    },
+    {
+      "sourceGroupId": 3,
+      "sourceCategoryId": 2,
+      "sourceCategoryName": "Categoria B",
+      "sourceGroupName": "Grupo A",
+      "competition": "adulto",
+      "targetGroup": "B"
+    },
+    {
+      "sourceGroupId": 4,
+      "sourceCategoryId": 2,
+      "sourceCategoryName": "Categoria B",
+      "sourceGroupName": "Grupo B",
+      "competition": "adulto",
+      "targetGroup": "B"
+    },
+    {
+      "sourceGroupId": 5,
+      "sourceCategoryId": 3,
+      "sourceCategoryName": "Femenil",
+      "sourceGroupName": "Grupo A",
+      "competition": "femenino",
+      "targetGroup": "A"
+    },
+    {
+      "sourceGroupId": 6,
+      "sourceCategoryId": 3,
+      "sourceCategoryName": "Femenil",
+      "sourceGroupName": "Grupo B",
+      "competition": "femenino",
+      "targetGroup": "B"
+    },
+    {
+      "sourceGroupId": 7,
+      "sourceCategoryId": 4,
+      "sourceCategoryName": "Juvenil",
+      "sourceGroupName": "6-9 años",
+      "competition": "infantil",
+      "targetGroup": "A"
+    },
+    {
+      "sourceGroupId": 8,
+      "sourceCategoryId": 4,
+      "sourceCategoryName": "Juvenil",
+      "sourceGroupName": "10-11 años",
+      "competition": "infantil",
+      "targetGroup": "B"
+    },
+    {
+      "sourceGroupId": 9,
+      "sourceCategoryId": 4,
+      "sourceCategoryName": "Juvenil",
+      "sourceGroupName": "12-13 años",
+      "competition": "junior",
+      "targetGroup": "A"
+    },
+    {
+      "sourceGroupId": 10,
+      "sourceCategoryId": 4,
+      "sourceCategoryName": "Juvenil",
+      "sourceGroupName": "14-17 años",
+      "competition": "junior",
+      "targetGroup": "B"
+    }
+  ]
+}

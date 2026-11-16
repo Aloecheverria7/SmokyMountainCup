@@ -1,0 +1,45 @@
+{
+  "name": "smoky-mountain-system",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=22.12"
+  },
+  "allowScripts": {
+    "argon2@0.45.2": true,
+    "esbuild@0.28.2": true
+  },
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"npm run dev -w @smoky/api\" \"npm run dev -w @smoky/web\"",
+    "build": "npm ci --include=dev && npm run build --workspaces",
+    "typecheck": "npm run typecheck --workspaces",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:e2e": "playwright test",
+    "test:parity": "node scripts/published-parity.mjs",
+    "test:api": "npm run build -w @smoky/api && node scripts/api-smoke.mjs",
+    "format": "prettier --write \"apps/*/src/**/*.{ts,tsx}\" \"scripts/*.mjs\" \"tests/**/*.ts\" playwright.config.ts",
+    "format:check": "prettier --check \"apps/*/src/**/*.{ts,tsx}\" \"scripts/*.mjs\" \"tests/**/*.ts\" playwright.config.ts",
+    "test:admin": "npm run build && node scripts/test-admin.mjs",
+    "test:imports": "npm run build -w @smoky/api && node --import tsx scripts/test-imports.mjs",
+    "start": "node apps/api/dist/main.js",
+    "test:hosting": "npm run build && node scripts/hosting-smoke.mjs",
+    "package:hostinger": "npm run build && node scripts/package-hostinger.mjs",
+    "hostinger:preflight": "node scripts/hostinger-preflight.mjs",
+    "test:parity:legacy": "node scripts/visual-parity.mjs",
+    "capture:published": "node scripts/capture-published.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/luxon": "^3.7.6",
+    "concurrently": "^9.2.0",
+    "parse5": "^8.1.1",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
+    "prettier": "^3.9.10",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-09",
+  "build": true,
+  "unitTests": 22,
+  "formatCheck": true,
+  "apiSmokeChecks": 6,
+  "mariaDbApiChecks": 88,
+  "nativeBrowserTests": 8,
+  "importPublicationBrowserTests": 1,
+  "providedSqlImportPublicationBackupChecks": 43,
+  "providedSqlRows": 158,
+  "providedSourceSha256": "c70a1f7eb8e5f7a801979058218dafc4851588738ea344df3407db5f7a21fd95",
+  "hostingChecks": 19,
+  "backupRestoreSeparateContainer": true,
+  "restoredAllSystemTableCounts": true,
+  "publicationPreservesFixtureIds": true,
+  "rejectsMissingSnapshots": true,
+  "hostingArchiveVerifiedFiles": 132,
+  "hostingArchiveSha256": "dec28c4f32ff188ca3d0f35179375373940af95a40f620b81a9b184187233387",
+  "archiveContainsOperationalSql": false,
+  "archiveContainsCredentials": false,
+  "remoteHostingerDeployment": false,
+  "dnsChanged": false,
+  "productionChanged": false,
+  "smtpDeliveryTested": false,
+  "remoteCiClaimed": false,
+  "pending": [
+    "Domain and authorized hPanel access",
+    "Official season name and timezone",
+    "Verified hosting DB connection and engine, SMTP, rules and freeze window",
+    "Real staging deployment and controlled traffic cutover"
+  ]
+}

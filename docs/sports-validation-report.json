@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-09",
+  "scope": "rosters, venues, draws, schedules, scoring, standings and knockout rounds",
+  "checks": {
+    "build": "passed",
+    "typecheck": "passed",
+    "unit": 7,
+    "mariadb_api": 88,
+    "browser": 8,
+    "landing_visual_comparisons": 12,
+    "landing_different_pixels": 0
+  },
+  "database": "disposable MariaDB 11.8; upgrade from foundation with an existing admin; no production access",
+  "recovery": "lost goal response, reload and retry with original idempotency key; exactly one event",
+  "limits": [
+    "No operational SQL imported or reconciled.",
+    "No external SMTP delivery or deployment.",
+    "Media/poster persistence and complete OpenAPI remain pending."
+  ]
+}

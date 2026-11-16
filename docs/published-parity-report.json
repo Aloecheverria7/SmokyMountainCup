@@ -1,0 +1,1326 @@
+{
+  "capturedDate": "2026-11-14",
+  "source": "https://smokymountaincup.com/",
+  "reference": "Pinned public HTTP documents, independently pinned original stylesheets and original GoodLayers runtime; remaining source assets checked against original SHA-256.",
+  "application": "NestJS production build with CSP active, no database or SMTP",
+  "pageCount": 19,
+  "widths": [
+    360,
+    390,
+    768,
+    1440
+  ],
+  "cases": 76,
+  "differentPixels": 0,
+  "threshold": 0.1,
+  "limitations": [
+    "External iframe contents masked; source embed URLs and geometry retained.",
+    "Hero held on first slide for pixel comparison; slider next control verified separately.",
+    "Settled viewport-entry effects; does not certify every animation frame across all browsers."
+  ],
+  "urlInventoryNormalization": "Only local origin removed from DOM image URLs rewritten by Revolution Slider; image paths and dimensions compared.",
+  "checks": {
+    "unit": 26,
+    "apiSmoke": 7,
+    "hosting": 35,
+    "adminSportsApiMariaDb": 88,
+    "nativeAndPublicBrowser": 11,
+    "importApiBackupRestore": 43,
+    "importBrowser": 1,
+    "hostedPublicBrowser": 7
+  },
+  "results": [
+    {
+      "page": "/",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        9783
+      ],
+      "reactSize": [
+        360,
+        9783
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        9699
+      ],
+      "reactSize": [
+        390,
+        9699
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        6848
+      ],
+      "reactSize": [
+        768,
+        6848
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        7098
+      ],
+      "reactSize": [
+        1440,
+        7098
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/about.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        6013
+      ],
+      "reactSize": [
+        360,
+        6013
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/about.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        5803
+      ],
+      "reactSize": [
+        390,
+        5803
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/about.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        4606
+      ],
+      "reactSize": [
+        768,
+        4606
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/about.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        3430
+      ],
+      "reactSize": [
+        1440,
+        3430
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/blog.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        6008
+      ],
+      "reactSize": [
+        360,
+        6008
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/blog.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        5903
+      ],
+      "reactSize": [
+        390,
+        5903
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/blog.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        3699
+      ],
+      "reactSize": [
+        768,
+        3699
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/blog.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        2670
+      ],
+      "reactSize": [
+        1440,
+        2670
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/contact.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        4549
+      ],
+      "reactSize": [
+        360,
+        4549
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/contact.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        4549
+      ],
+      "reactSize": [
+        390,
+        4549
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/contact.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        3431
+      ],
+      "reactSize": [
+        768,
+        3431
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/contact.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        3095
+      ],
+      "reactSize": [
+        1440,
+        3095
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/gallery.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        25551
+      ],
+      "reactSize": [
+        360,
+        25551
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/gallery.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        27612
+      ],
+      "reactSize": [
+        390,
+        27612
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/gallery.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        15269
+      ],
+      "reactSize": [
+        768,
+        15269
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/gallery.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        25464
+      ],
+      "reactSize": [
+        1440,
+        25464
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-blocks.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        2060
+      ],
+      "reactSize": [
+        360,
+        2060
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-blocks.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        2060
+      ],
+      "reactSize": [
+        390,
+        2060
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-blocks.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        1928
+      ],
+      "reactSize": [
+        768,
+        1928
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-blocks.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        1746
+      ],
+      "reactSize": [
+        1440,
+        1746
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-boxScores.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        2414
+      ],
+      "reactSize": [
+        360,
+        2414
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-boxScores.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        2414
+      ],
+      "reactSize": [
+        390,
+        2414
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-boxScores.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        2055
+      ],
+      "reactSize": [
+        768,
+        2055
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-boxScores.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        2058
+      ],
+      "reactSize": [
+        1440,
+        2058
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-calendar.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        1324
+      ],
+      "reactSize": [
+        360,
+        1324
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-calendar.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        1228
+      ],
+      "reactSize": [
+        390,
+        1228
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-calendar.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        1295
+      ],
+      "reactSize": [
+        768,
+        1295
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-calendar.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        1113
+      ],
+      "reactSize": [
+        1440,
+        1113
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-details.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        2088
+      ],
+      "reactSize": [
+        360,
+        2088
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-details.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        2088
+      ],
+      "reactSize": [
+        390,
+        2088
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-details.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        1730
+      ],
+      "reactSize": [
+        768,
+        1730
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-details.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        1732
+      ],
+      "reactSize": [
+        1440,
+        1732
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-list.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        2195
+      ],
+      "reactSize": [
+        360,
+        2195
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-list.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        2195
+      ],
+      "reactSize": [
+        390,
+        2195
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-list.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        1885
+      ],
+      "reactSize": [
+        768,
+        1885
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-list.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        1887
+      ],
+      "reactSize": [
+        1440,
+        1887
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-results.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        2225
+      ],
+      "reactSize": [
+        360,
+        2225
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-results.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        2225
+      ],
+      "reactSize": [
+        390,
+        2225
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-results.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        1866
+      ],
+      "reactSize": [
+        768,
+        1866
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/games-results.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        1868
+      ],
+      "reactSize": [
+        1440,
+        1868
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/leaguetable.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        2326
+      ],
+      "reactSize": [
+        360,
+        2326
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/leaguetable.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        2278
+      ],
+      "reactSize": [
+        390,
+        2278
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/leaguetable.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        1967
+      ],
+      "reactSize": [
+        768,
+        1967
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/leaguetable.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        1970
+      ],
+      "reactSize": [
+        1440,
+        1970
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-details.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        2887
+      ],
+      "reactSize": [
+        360,
+        2887
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-details.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        2747
+      ],
+      "reactSize": [
+        390,
+        2747
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-details.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        1991
+      ],
+      "reactSize": [
+        768,
+        1991
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-details.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        1814
+      ],
+      "reactSize": [
+        1440,
+        1814
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-gallery.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        4501
+      ],
+      "reactSize": [
+        360,
+        4501
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-gallery.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        4741
+      ],
+      "reactSize": [
+        390,
+        4741
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-gallery.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        2529
+      ],
+      "reactSize": [
+        768,
+        2529
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-gallery.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        3083
+      ],
+      "reactSize": [
+        1440,
+        3083
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-list.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        2723
+      ],
+      "reactSize": [
+        360,
+        2723
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-list.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        2723
+      ],
+      "reactSize": [
+        390,
+        2723
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-list.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        2381
+      ],
+      "reactSize": [
+        768,
+        2381
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-list.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        2318
+      ],
+      "reactSize": [
+        1440,
+        2318
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-statics.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        1917
+      ],
+      "reactSize": [
+        360,
+        1917
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-statics.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        1917
+      ],
+      "reactSize": [
+        390,
+        1917
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-statics.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        1558
+      ],
+      "reactSize": [
+        768,
+        1558
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/player-statics.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        1560
+      ],
+      "reactSize": [
+        1440,
+        1560
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/schedule.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        2539
+      ],
+      "reactSize": [
+        360,
+        2539
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/schedule.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        2419
+      ],
+      "reactSize": [
+        390,
+        2419
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/schedule.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        2121
+      ],
+      "reactSize": [
+        768,
+        2121
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/schedule.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        1892
+      ],
+      "reactSize": [
+        1440,
+        1892
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/sorry.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        2111
+      ],
+      "reactSize": [
+        360,
+        2111
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/sorry.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        2032
+      ],
+      "reactSize": [
+        390,
+        2032
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/sorry.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        1642
+      ],
+      "reactSize": [
+        768,
+        1642
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/sorry.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        1611
+      ],
+      "reactSize": [
+        1440,
+        1611
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/thank-you.php",
+      "width": 360,
+      "dimensions": true,
+      "referenceSize": [
+        360,
+        2077
+      ],
+      "reactSize": [
+        360,
+        2077
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/thank-you.php",
+      "width": 390,
+      "dimensions": true,
+      "referenceSize": [
+        390,
+        2044
+      ],
+      "reactSize": [
+        390,
+        2044
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/thank-you.php",
+      "width": 768,
+      "dimensions": true,
+      "referenceSize": [
+        768,
+        1608
+      ],
+      "reactSize": [
+        768,
+        1608
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    },
+    {
+      "page": "/thank-you.php",
+      "width": 1440,
+      "dimensions": true,
+      "referenceSize": [
+        1440,
+        1611
+      ],
+      "reactSize": [
+        1440,
+        1611
+      ],
+      "differentPixels": 0,
+      "ratio": 0,
+      "headingsEqual": true,
+      "imagesEqual": true
+    }
+  ]
+}
