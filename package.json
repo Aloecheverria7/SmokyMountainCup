@@ -27,6 +27,7 @@
     "start": "node apps/api/dist/main.js",
     "test:hosting": "npm run build && node scripts/hosting-smoke.mjs",
     "package:hostinger": "npm run build && node scripts/package-hostinger.mjs",
+    "package:hostinger:built": "node scripts/package-hostinger.mjs",
     "hostinger:preflight": "node scripts/hostinger-preflight.mjs",
     "test:parity:legacy": "node scripts/visual-parity.mjs",
     "capture:published": "node scripts/capture-published.mjs"
